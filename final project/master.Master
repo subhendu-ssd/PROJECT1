@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="final_project.master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+    <style type="text/css">
+        #menu
+        {
+            width: 1273px;
+        }
+    </style>
+   
+</head>
+<body background="style/final%20copy.jpg">
+    <form id="form1" runat="server">
+    
+    <div id="header">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Image ID="Image1" runat="server" Height="177px" 
+            ImageUrl="~/style/banner2.jpg" Width="1150px" style="margin-left: 0px" />
+    </div>
+    <div id="menu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Height="37px" Text="HOME" 
+            Width="137px" onclick="Button1_Click" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button6" runat="server" Height="37px" Text="CONTACT US" 
+            Width="137px" onclick="Button6_Click" />
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" Height="37px" Text="ABOUT US" 
+            Width="137px" onclick="Button2_Click" />
+        &nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;
+        <asp:Button ID="Button3" runat="server" Height="37px" Text="EXIT" 
+            Width="137px" onclick="Button3_Click" 
+            onclientclick="window.close()" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button4" runat="server" Height="37px" Text="FEEDBACK" 
+            Width="137px" onclick="Button4_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button5" runat="server" Height="37px" Text="ADMIN" 
+            Width="137px" onclick="Button5_Click" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+    <div id="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" 
+            Text="OUR MAJOR EMPLOYERS"></asp:Label>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+<marquee target="_blank">
+
+  <asp:ImageButton ID="ImageButton2" runat="server" Height="71px" 
+        ImageUrl="~/style/company/download (1).jpeg" 
+        PostBackUrl="http://www.tcs.com/" Width="150px" />
+&nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton11" runat="server" Height="71px" 
+        ImageUrl="~/style/company/Infosys.jpg" PostBackUrl="http://www.infosys.com/" 
+        Width="150px" />
+&nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton12" runat="server" Height="71px" 
+        ImageUrl="~/style/company/cognizant.JPG" PostBackUrl="http://www.cognizant.com/" 
+        Width="150px" />
+&nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton13" runat="server" Height="71px" 
+        ImageUrl="~/style/company/ibm.jpg" PostBackUrl="http://www.ibm.com/in/en/" 
+        Width="150px" />
+&nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton14" runat="server" Height="71px" 
+        ImageUrl="~/style/company/download (2).jpeg" onclick="ImageButton14_Click" 
+        PostBackUrl="http://www.itcinfotech.com/" Width="150px" />
+&nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton15" runat="server" Height="71px" 
+        ImageUrl="~/style/company/download (3).jpeg" PostBackUrl="http://www.hcl.com/" 
+        Width="150px" />     
+    &nbsp;&nbsp;&nbsp;     
+    <asp:ImageButton ID="ImageButton16" runat="server" Height="71px" 
+        Width="150px" ImageUrl="~/style/company/a.jpg" 
+        PostBackUrl="http://www.syntelinc.com/" />
+    &nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton17" runat="server" Height="71px" 
+        Width="150px" ImageUrl="~/style/company/b.jpg" 
+        PostBackUrl="http://www.niit-tech.com/" />
+    &nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton18" runat="server" Height="71px" 
+        Width="150px" ImageUrl="~/style/company/c.jpg" 
+        PostBackUrl="http://www.larsentoubro.com/" />
+    &nbsp;&nbsp;&nbsp;
+    <asp:ImageButton ID="ImageButton19" runat="server" Height="71px" 
+        Width="150px" ImageUrl="~/style/company/d.png" 
+        PostBackUrl="http://www.igate.com/" /></marquee>
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </form>
+</body>
+</html>
